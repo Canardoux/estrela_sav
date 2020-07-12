@@ -1,0 +1,54 @@
+// This file contains basic setup for Corona Native apps and plugins
+
+CORONA_ROOT=$HOME/Library/Application Support/Corona/Native
+
+HEADER_SEARCH_PATHS = $(inherited) "$(CORONA_ROOT)/Corona/shared/include/Corona" "$(CORONA_ROOT)/Corona/shared/include/lua" "$(CORONA_ROOT)/Corona/ios/include/Corona" "$(PODS_ROOT)"
+
+LIBRARY_SEARCH_PATHS = $(inherited) "$(CORONA_ROOT)/Corona/ios/lib"
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/EmbeddedFrameworks"
+
+ENABLE_BITCODE = no
+
+// Sometimes passing -all_load flag is not an option. In this case, manually load all libraries with -force_load:
+//CORONA_FORCE_LOAD = --force-load
+//CORONA_CUSTOM_LDFLAGS = -force_load "$(BUILT_PRODUCTS_DIR)/libplugin_library.a"
+
+
+//#include "$(SRCROOT)/Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"
+//#include "$(SRCROOT)/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"
+//#include "FlutterPluginRegistrant.debug.xcconfig"
+//#include "FlutterPluginRegistrant.release.xcconfig"
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../../flutter_module/.ios/Flutter" "${PODS_ROOT}/../../../flutter_module/.ios/Flutter/engine"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant"
+//OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -iframework "${PODS_ROOT}/../../../flutter_module/.ios/Flutter/engine" -iframework "${PODS_ROOT}/../../../flutter_module/.ios/Flutter"
+//"${PODS_ROOT}/../../../flutter_module/.ios/Flutter"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FlutterPluginRegistrant" -framework "App" -framework "Flutter"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc //-fmodule-map-file="${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+
+
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant
+DEFINES_MODULE = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../../flutter_module/.ios/Flutter/engine"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/FlutterPluginRegistrant" "${PODS_ROOT}/Headers/Public"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../../../flutter_module/.ios/Flutter/FlutterPluginRegistrant
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+
+
+
+

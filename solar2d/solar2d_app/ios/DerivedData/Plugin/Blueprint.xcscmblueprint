@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C383170300BC20F8C8D7C8EE20813DC161625CFD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C383170300BC20F8C8D7C8EE20813DC161625CFD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "57BFA337-E9F3-4780-BB12-6C8599F41471",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C383170300BC20F8C8D7C8EE20813DC161625CFD" : "estrela\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Plugin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "solar2d\/solar2d_app\/ios\/Plugin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:Canardoux\/estrela.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C383170300BC20F8C8D7C8EE20813DC161625CFD"
+    }
+  ]
+}

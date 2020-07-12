@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>05B4C6AD-7765-4000-8CCA-1B603B4F3B3D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>05B4C6AD-7765-4000-8CCA-1B603B4F3B3D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Plugin project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plugin_library</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plugin_library</string>
+			<key>timeStartedRecording</key>
+			<real>616109719.693941</real>
+			<key>timeStoppedRecording</key>
+			<real>616109719.79723597</real>
+			<key>title</key>
+			<string>Build plugin_library</string>
+			<key>uniqueIdentifier</key>
+			<string>05B4C6AD-7765-4000-8CCA-1B603B4F3B3D</string>
+		</dict>
+		<key>82B447B5-3827-4D9E-8179-EF12F61FA4F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>82B447B5-3827-4D9E-8179-EF12F61FA4F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Plugin project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>plugin_library</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build plugin_library</string>
+			<key>timeStartedRecording</key>
+			<real>616108469.53214002</real>
+			<key>timeStoppedRecording</key>
+			<real>616108470.02607799</real>
+			<key>title</key>
+			<string>Build plugin_library</string>
+			<key>uniqueIdentifier</key>
+			<string>82B447B5-3827-4D9E-8179-EF12F61FA4F0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
