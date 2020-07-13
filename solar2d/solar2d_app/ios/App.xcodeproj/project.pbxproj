@@ -59,8 +59,8 @@
 		A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244991683FA5300C395D1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E2537E166AE3DC00DCDC2C /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C22C1E4B1E981D9000D74196 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */; };
-		C59674C224BA0C0A001622E5 /* libFlutterPluginRegistrant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59674AD24BA02EA001622E5 /* libFlutterPluginRegistrant.a */; };
-		C59674D024BA0E1B001622E5 /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59674CF24BA0DDA001622E5 /* libplugin_library.a */; };
+		C59674EE24BB7529001622E5 /* libMiCorazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59674E824BB74B9001622E5 /* libMiCorazon.a */; };
+		C59674F924BB7FD4001622E5 /* libFlutterPluginRegistrant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59674AD24BA02EA001622E5 /* libFlutterPluginRegistrant.a */; };
 		E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F31BFC00BA0031FAE9 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F56457D91FA108F500EC8C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56712391F73451B006B502D /* Images.xcassets */; };
@@ -84,12 +84,12 @@
 			remoteGlobalIDString = 5BEF4602752E47C46E8C10FB8B4B57F2;
 			remoteInfo = "Pods-App";
 		};
-		C59674CE24BA0DDA001622E5 /* PBXContainerItemProxy */ = {
+		C59674E724BB74B9001622E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C59674CA24BA0DDA001622E5 /* Plugin.xcodeproj */;
+			containerPortal = C59674E324BB74B9001622E5 /* MiCorazon.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = A4E253B6166D6FB300DCDC2C;
-			remoteInfo = plugin_library;
+			remoteInfo = MiCorazon;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -142,7 +142,7 @@
 		C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; name = LaunchScreen.storyboardc; path = ../Corona/LaunchScreen.storyboardc; sourceTree = "<group>"; };
 		C277D3B51EBB9F8E00966BA1 /* _CoronaSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _CoronaSplashScreen.png; sourceTree = "<group>"; };
 		C59674A524BA02E9001622E5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		C59674CA24BA0DDA001622E5 /* Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Plugin.xcodeproj; sourceTree = "<group>"; };
+		C59674E324BB74B9001622E5 /* MiCorazon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MiCorazon.xcodeproj; path = ../../micorazon_plugin/ios/MiCorazon.xcodeproj; sourceTree = "<group>"; };
 		E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		E640B2F31BFC00BA0031FAE9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		F54A40BD1EE07F9100AF417D /* build.settings */ = {isa = PBXFileReference; lastKnownFileType = text; name = build.settings; path = ../Corona/build.settings; sourceTree = "<group>"; };
@@ -169,13 +169,12 @@
 				A484117715128D5D0074BD57 /* AddressBook.framework in Frameworks */,
 				A484117815128D5D0074BD57 /* AddressBookUI.framework in Frameworks */,
 				A484117915128D5D0074BD57 /* AudioToolbox.framework in Frameworks */,
-				C59674C224BA0C0A001622E5 /* libFlutterPluginRegistrant.a in Frameworks */,
+				C59674F924BB7FD4001622E5 /* libFlutterPluginRegistrant.a in Frameworks */,
 				A484117A15128D5D0074BD57 /* AVFoundation.framework in Frameworks */,
 				A484117B15128D5D0074BD57 /* CFNetwork.framework in Frameworks */,
 				A484112215114F700074BD57 /* CoreGraphics.framework in Frameworks */,
 				A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */,
 				A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */,
-				C59674D024BA0E1B001622E5 /* libplugin_library.a in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
 				A484112015114F700074BD57 /* Foundation.framework in Frameworks */,
 				A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */,
@@ -188,6 +187,7 @@
 				A484118415128D5D0074BD57 /* MessageUI.framework in Frameworks */,
 				A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */,
 				A484118615128D5D0074BD57 /* OpenAL.framework in Frameworks */,
+				C59674EE24BB7529001622E5 /* libMiCorazon.a in Frameworks */,
 				A484112615114F700074BD57 /* OpenGLES.framework in Frameworks */,
 				A484118715128D5D0074BD57 /* QuartzCore.framework in Frameworks */,
 				A484118815128D5D0074BD57 /* Security.framework in Frameworks */,
@@ -233,7 +233,7 @@
 		A484110E15114F700074BD57 = {
 			isa = PBXGroup;
 			children = (
-				C59674CA24BA0DDA001622E5 /* Plugin.xcodeproj */,
+				C59674E324BB74B9001622E5 /* MiCorazon.xcodeproj */,
 				C59674A524BA02E9001622E5 /* Pods.xcodeproj */,
 				A484112715114F700074BD57 /* App */,
 				A447B823166856C7009EA762 /* Corona */,
@@ -331,10 +331,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C59674CB24BA0DDA001622E5 /* Products */ = {
+		C59674E424BB74B9001622E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C59674CF24BA0DDA001622E5 /* libplugin_library.a */,
+				C59674E824BB74B9001622E5 /* libMiCorazon.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,6 +346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A484114215114F700074BD57 /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
+				C596751024BC440D001622E5 /* Flutter Script */,
 				11B2E0248C9AAEFAC89E514A /* [CP] Check Pods Manifest.lock */,
 				C28A3B451EE9F8FD00F08609 /* Corona Native */,
 				A484111715114F700074BD57 /* Resources */,
@@ -396,8 +397,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C59674CB24BA0DDA001622E5 /* Products */;
-					ProjectRef = C59674CA24BA0DDA001622E5 /* Plugin.xcodeproj */;
+					ProductGroup = C59674E424BB74B9001622E5 /* Products */;
+					ProjectRef = C59674E324BB74B9001622E5 /* MiCorazon.xcodeproj */;
 				},
 				{
 					ProductGroup = C59674A624BA02E9001622E5 /* Products */;
@@ -427,11 +428,11 @@
 			remoteRef = C59674AE24BA02EA001622E5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C59674CF24BA0DDA001622E5 /* libplugin_library.a */ = {
+		C59674E824BB74B9001622E5 /* libMiCorazon.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libplugin_library.a;
-			remoteRef = C59674CE24BA0DDA001622E5 /* PBXContainerItemProxy */;
+			path = libMiCorazon.a;
+			remoteRef = C59674E724BB74B9001622E5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -542,6 +543,24 @@
 			shellScript = "# echo \"CORONA_ROOT: ${CORONA_ROOT}\"\nif [ ! -d \"${CORONA_ROOT}\" ]\nthen\necho \"error: Corona Native has not been setup.  Run 'Native/SetupCoronaNative.app' in your Corona install to set it up\" >&2\n\nexit 1\nelse\necho \"Building with Corona Native from $(readlink \"${CORONA_ROOT}\")\"\nfi\n\n# Check for difficult to debug error involving an item in the Corona\n# project directory having the same name as a file in the app bundle\nif [ -d \"${PROJECT_DIR}/../Corona/${EXECUTABLE_NAME}\" ]\nthen\necho \"ERROR: cannot have a directory called '$(ls \"${PROJECT_DIR}/../Corona\" | grep -iw ${EXECUTABLE_NAME})' in the Corona project directory because it has the same name as the app\"\nexit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C596751024BC440D001622E5 /* Flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Flutter Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n#\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
 		D8A0DE1E26FD1E801F8D2229 /* [CP-User] Run Flutter Build flutter_module Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,7 +575,7 @@
 			name = "[CP-User] Run Flutter Build flutter_module Script";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build\n";
 		};
 		F597AC721ED8CA480085F5E5 /* Download Plugins */ = {
 			isa = PBXShellScriptBuildPhase;

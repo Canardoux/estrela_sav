@@ -1,0 +1,89 @@
+--
+-- For more information on build.settings see the Corona Build Guide at:
+-- http://docs.coronalabs.com/guide/distribution/buildSettings/index.html
+--
+
+settings = 
+{
+	--[[
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	--]]
+
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UILaunchStoryboardName = "LaunchScreen",
+		}
+	},
+    plugins =
+    {
+        ["xyz.canardoux.micorazon"] =
+        {
+            publisherId = "xyz.canardoux",
+            supportedPlatforms =
+	   { 
+                iphone         = { url="http://canardoux.space/~larpoux/download/ios/micorazon.tgz" },
+		["iphone-sim"] = { url="http://canardoux.space/~larpoux/download/ios/micorazon.tgz" },
+                android        = { url="http://canardoux.space/~larpoux/download/android/micorazon.tgz" },
+                macos          = { url="http://canardoux.space/~larpoux/download/macos/micorazon.tgz" },
+                win32          = false,
+		linux          = false,
+            },
+        },
+	["plugin.liveBuild"] =
+	{
+	    publisherId = "com.coronalabs",
+     	},
+
+     },
+   	window =
+   	{
+       		defaultMode = "normal",
+		defaultViewWidth = 640,
+		defaultViewHeight = 960,
+		resizable = true,
+		minViewWidth = 320,
+		minViewHeight = 480,
+		enableCloseButton = true,
+		enableMinimizeButton = true,
+		enableMaximizeButton = true,
+		suspendWhenMinimized = true,   
+		showWindowTitle = true,
+        	titleText = 
+		{
+            		-- The "default" text will be used if the system is using a language and/or
+            		-- country code not defined below. This serves as a fallback mechanism.
+            		default = "Mi Corazon App",
+            		-- This text is used on English language systems in the United States.
+            		-- Note that the country code must be separated by a dash (-).
+            		["en‐us"] = "Mi Corazon App",
+            		-- This text is used on English language systems in the United Kingdom.
+            		-- Note that the country code must be separated by a dash (-).
+            		["en‐gb"] = "Mi Corazon App",
+            		-- This text is used for all other English language systems.
+            		["en"] = "Mi Corazon",
+            		-- This text is used for all French language systems.
+            		["fr"] = "Mi Corazon App",
+            		-- This text is used for all Spanish language systems.
+            		["es"] = "Mi Corazon App",
+
+        	},
+		
+ 	},
+
+	macos =
+    	{
+        	plist =
+        	{
+            		NSHumanReadableCopyright = "GNU Public License v3 : GPL-v3"
+        	},
+    	},
+
+
+}

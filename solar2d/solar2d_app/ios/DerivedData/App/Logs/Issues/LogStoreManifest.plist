@@ -62,63 +62,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5380E2B0-C1AA-4ACE-999D-D6508F3FC325</string>
 		</dict>
-		<key>6867FE12-3CE6-43E5-B9F9-336FDBF12E48</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
-			<key>fileName</key>
-			<string>6867FE12-3CE6-43E5-B9F9-336FDBF12E48.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>plugin_library-bqttsaymnbxuexefvzwjfsmwnofj</string>
-			<key>timeStartedRecording</key>
-			<real>616174091.10104501</real>
-			<key>timeStoppedRecording</key>
-			<real>616174091.11318898</real>
-			<key>title</key>
-			<string>Build target plugin_library</string>
-			<key>uniqueIdentifier</key>
-			<string>6867FE12-3CE6-43E5-B9F9-336FDBF12E48</string>
-		</dict>
-		<key>9120F37C-0ECD-45E8-8FE0-7E8558B472CE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
-			<key>fileName</key>
-			<string>9120F37C-0ECD-45E8-8FE0-7E8558B472CE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>FlutterPluginRegistrant-dzowncrukcbfbgcnsucstndiqbcm</string>
-			<key>timeStartedRecording</key>
-			<real>616174091.10232902</real>
-			<key>timeStoppedRecording</key>
-			<real>616174091.32397604</real>
-			<key>title</key>
-			<string>Build target FlutterPluginRegistrant</string>
-			<key>uniqueIdentifier</key>
-			<string>9120F37C-0ECD-45E8-8FE0-7E8558B472CE</string>
-		</dict>
-		<key>E9C9A6A5-F1C1-40C7-BB0F-37DC522B7EB2</key>
+		<key>5B351E4B-5088-41DF-AC3A-D3FEAEC98B76</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -127,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>E9C9A6A5-F1C1-40C7-BB0F-37DC522B7EB2.xcactivitylog</string>
+			<string>5B351E4B-5088-41DF-AC3A-D3FEAEC98B76.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -138,13 +82,69 @@
 			<key>signature</key>
 			<string>App-gcemolrplkplqpflupbhcauiyjdj</string>
 			<key>timeStartedRecording</key>
-			<real>616174091.32469702</real>
+			<real>616343679.66243601</real>
 			<key>timeStoppedRecording</key>
-			<real>616174098.00518095</real>
+			<real>616343688.45673299</real>
 			<key>title</key>
 			<string>Build target App</string>
 			<key>uniqueIdentifier</key>
-			<string>E9C9A6A5-F1C1-40C7-BB0F-37DC522B7EB2</string>
+			<string>5B351E4B-5088-41DF-AC3A-D3FEAEC98B76</string>
+		</dict>
+		<key>990A652C-A514-4441-882B-703F8118F40B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>990A652C-A514-4441-882B-703F8118F40B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>FlutterPluginRegistrant-dzowncrukcbfbgcnsucstndiqbcm</string>
+			<key>timeStartedRecording</key>
+			<real>616343678.34176004</real>
+			<key>timeStoppedRecording</key>
+			<real>616343678.67428601</real>
+			<key>title</key>
+			<string>Build target FlutterPluginRegistrant</string>
+			<key>uniqueIdentifier</key>
+			<string>990A652C-A514-4441-882B-703F8118F40B</string>
+		</dict>
+		<key>BD775293-3246-43DC-A8D6-CF1FF1EDE869</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>BD775293-3246-43DC-A8D6-CF1FF1EDE869.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>MiCorazon-afvmyhyyktgicudbhrouxeltgyio</string>
+			<key>timeStartedRecording</key>
+			<real>616343678.67780101</real>
+			<key>timeStoppedRecording</key>
+			<real>616343679.66178501</real>
+			<key>title</key>
+			<string>Build target MiCorazon</string>
+			<key>uniqueIdentifier</key>
+			<string>BD775293-3246-43DC-A8D6-CF1FF1EDE869</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

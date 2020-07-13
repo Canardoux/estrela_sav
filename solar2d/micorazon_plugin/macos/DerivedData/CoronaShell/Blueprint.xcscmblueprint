@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C383170300BC20F8C8D7C8EE20813DC161625CFD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C383170300BC20F8C8D7C8EE20813DC161625CFD" : 0,
+    "3B90731F96881FD42CCC577EC6FCBAD746216578" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "86C809F1-7092-4FFA-B91A-C921B8CB1A08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C383170300BC20F8C8D7C8EE20813DC161625CFD" : "estrela\/",
+    "3B90731F96881FD42CCC577EC6FCBAD746216578" : "corona\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoronaShell",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "solar2d\/micorazon_plugin\/macos\/CoronaShell.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/coronalabs\/corona.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B90731F96881FD42CCC577EC6FCBAD746216578"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:Canardoux\/estrela.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C383170300BC20F8C8D7C8EE20813DC161625CFD"
+    }
+  ]
+}

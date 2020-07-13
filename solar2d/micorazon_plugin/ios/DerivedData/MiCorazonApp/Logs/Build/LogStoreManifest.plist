@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>CFC1F6FB-341E-4AF5-87F1-3AEA89C60C7D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CFC1F6FB-341E-4AF5-87F1-3AEA89C60C7D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MiCorazonApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MiCorazonApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build MiCorazonApp</string>
+			<key>timeStartedRecording</key>
+			<real>616263574.79684901</real>
+			<key>timeStoppedRecording</key>
+			<real>616263579.06360304</real>
+			<key>title</key>
+			<string>Build MiCorazonApp</string>
+			<key>uniqueIdentifier</key>
+			<string>CFC1F6FB-341E-4AF5-87F1-3AEA89C60C7D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

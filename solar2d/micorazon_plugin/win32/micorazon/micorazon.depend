@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1561069903 source:x:\proj\mi_corazon\corona_plugin\win32\micorazon\main.cpp
+	"main.h"
+	<CoronaLua.h>
+	<CoronaMacros.h>
+
+1561068495 x:\proj\mi_corazon\corona_plugin\win32\micorazon\main.h
+	<windows.h>
+	<CoronaLua.h>
+	<CoronaMacros.h>
+
+1529923116 x:\corona\native\corona\shared\include\corona\coronalua.h
+	"CoronaMacros.h"
+	"CoronaLog.h"
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1529923116 x:\corona\native\corona\shared\include\corona\coronamacros.h
+
+1529923116 x:\corona\native\corona\shared\include\corona\coronalog.h
+	"CoronaMacros.h"
+	<stdarg.h>
+
+1529923116 x:\corona\native\corona\shared\include\lua\lua.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	"luaconf.h"
+
+1529923116 x:\corona\native\corona\shared\include\lua\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<wchar.h>
+	<stdio.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	"../../../librtt/Core/Rtt_Assert.h"
+	<stdint.h>
+	<math.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<direct.h>
+	<sys/stat.h>
+	<algorithm>
+
+1529923116 x:\corona\native\corona\shared\include\lua\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1529923116 x:\corona\native\corona\shared\include\lua\lualib.h
+	"lua.h"
+

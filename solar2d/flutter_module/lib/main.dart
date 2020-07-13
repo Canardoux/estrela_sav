@@ -1,8 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_module/demo.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  Route<dynamic> generateRoute( RouteSettings settings )
+  {
+    switch (settings.name)
+    {
+      case '/':
+        return MaterialPageRoute
+          (
+          builder: ( context )
+          => MyApp( ),
+        );
+
+      case '/demo':
+        return MaterialPageRoute
+          (
+          builder: ( context )
+          => Demo( ),
+        );
+    }
+  }
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -20,6 +41,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
+      onGenerateRoute: generateRoute,
     );
   }
 }
@@ -70,7 +92,10 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: Center(
+
+      body:
+
+      Column(mainAxisAlignment: MainAxisAlignment.center,children: [Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
@@ -97,8 +122,16 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Text('This form was composed with Flutter', style: TextStyle(color: Colors.purple),),
+            Text('And is rendered by Flutter', style: TextStyle(color: Colors.purple),),
+            ButtonBar(children: [RaisedButton(child: Text('Demo'),onPressed: ( )
+            {
+              Navigator.pushNamed( context, "/demo" );
+            },)], ),
           ],
         ),
+          ),
+      ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>62F7BA63-1081-455A-9AAB-1E70485E26D2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>62F7BA63-1081-455A-9AAB-1E70485E26D2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoronaShell project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoronaShell</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CoronaShell</string>
+			<key>timeStartedRecording</key>
+			<real>616264367.79945505</real>
+			<key>timeStoppedRecording</key>
+			<real>616264384.51695704</real>
+			<key>title</key>
+			<string>Build CoronaShell</string>
+			<key>uniqueIdentifier</key>
+			<string>62F7BA63-1081-455A-9AAB-1E70485E26D2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

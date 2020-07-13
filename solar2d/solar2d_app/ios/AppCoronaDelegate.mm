@@ -29,9 +29,9 @@
 
 - (BOOL)application:(UIApplication*)application
   didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id>*)launchOptions {
-    self.flutterEngine = [[FlutterEngine alloc] initWithName:@"io.flutter" project:nil];
-    [self.flutterEngine runWithEntrypoint:nil];
-    [GeneratedPluginRegistrant registerWithRegistry:self.flutterEngine];
+    //self.flutterEngine = [[FlutterEngine alloc] initWithName:@"io.flutter" project:nil];
+    //[self.flutterEngine runWithEntrypoint:nil];
+    //[GeneratedPluginRegistrant registerWithRegistry:self.flutterEngine];
     return [_lifeCycleDelegate application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

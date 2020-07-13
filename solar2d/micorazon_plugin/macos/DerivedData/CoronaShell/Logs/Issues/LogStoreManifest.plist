@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>82F9BA8C-8119-454F-9E97-14E15E8F98D8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>82F9BA8C-8119-454F-9E97-14E15E8F98D8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>CoronaShell-gyonngvrjipdqggnmcxiccmwdcea</string>
+			<key>timeStartedRecording</key>
+			<real>616264367.85650694</real>
+			<key>timeStoppedRecording</key>
+			<real>616264384.51410699</real>
+			<key>title</key>
+			<string>Build target CoronaShell</string>
+			<key>uniqueIdentifier</key>
+			<string>82F9BA8C-8119-454F-9E97-14E15E8F98D8</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,3 @@
+.\gradlew exportPluginJar
+.\gradlew assemble
+

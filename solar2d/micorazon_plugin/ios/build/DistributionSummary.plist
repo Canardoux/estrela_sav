@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MiCorazonApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4FCA8252A95AA5D3DB5627F418A4D4820E448286</string>
+				<key>dateExpires</key>
+				<string>27/12/2019</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>5YY4QLF92X.xyz.canardoux.micorazon</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>5YY4QLF92X</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>5YY4QLF92X.xyz.canardoux.micorazon</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>MiCorazonApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>fc57779b-84cb-49f5-93ed-a9170faae103</string>
+				<key>name</key>
+				<string>Mi Corazon Profile</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5YY4QLF92X</string>
+				<key>name</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

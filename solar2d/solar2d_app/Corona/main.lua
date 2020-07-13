@@ -1,24 +1,16 @@
-local library = require "plugin.library"
 
--- This event is dispatched to the global Runtime object
--- by `didLoadMain:` in MyCoronaDelegate.mm
-local function delegateListener( event )
-	native.showAlert(
-		"Event dispatched from `didLoadMain:`",
-		"of type: " .. tostring( event.name ),
-		{ "OK" } )
-end
-Runtime:addEventListener( "delegate", delegateListener )
+-----------------------------------------------------------------------------------------
+--
+-- main.lua
+--
+-----------------------------------------------------------------------------------------
+local composer = require "composer"
+--local library = require 'xyz.canardoux.micorazon'
+-- show default status bar (iOS)
+display.setStatusBar( display.DefaultStatusBar )
 
--- This event is dispatched to the following Lua function
--- by PluginLibrary::show() in PluginLibrary.mm
-local function listener( event )
-	print( "Received event from Library plugin (" .. event.name .. "): ", event.message )
-end
 
-library.init( listener )
-
-timer.performWithDelay( 1000, function()
-	library.show( "corona" )
-end )
-
+--local library = require 'xyz.canardoux.micorazon'
+composer.gotoScene( "menuscreen" )
+--library.run2( )
+--library.show( 'Zozo' );

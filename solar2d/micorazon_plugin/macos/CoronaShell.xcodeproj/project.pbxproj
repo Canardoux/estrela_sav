@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24B5CE81C57EF9500A8E813 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C24B5CE71C57EF9500A8E813 /* NSString+Extensions.m */; };
+		C2A3776D1B33C69F00BB5B88 /* Icon-osx.icns in Resources */ = {isa = PBXBuildFile; fileRef = C2A3776C1B33C69F00BB5B88 /* Icon-osx.icns */; };
+		C521D17422D008EE00996781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C521D17322D008EE00996781 /* AppDelegate.m */; };
+		C521D17622D0094300996781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C521D17522D0094300996781 /* main.m */; };
+		C521D17822D0098400996781 /* CoronaShell.icns in Resources */ = {isa = PBXBuildFile; fileRef = C521D17722D0098400996781 /* CoronaShell.icns */; };
+		C521D17B22D009B400996781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C521D17922D009B400996781 /* MainMenu.xib */; };
+		C521D17D22D009F000996781 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C521D17C22D009F000996781 /* Info.plist */; };
+		C521D17F22D00A1000996781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C521D17E22D00A1000996781 /* Images.xcassets */; };
+		C521D18822D08FB100996781 /* CoronaCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C521D18722D08FB100996781 /* CoronaCards.framework */; };
+		C521D18922D08FB100996781 /* CoronaCards.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C521D18722D08FB100996781 /* CoronaCards.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C521D18E22D0963B00996781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C521D18A22D0963B00996781 /* Plugin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A49186401641DDB800A39286;
+			remoteInfo = micorazon;
+		};
+		C521D19022D0973B00996781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C521D18A22D0963B00996781 /* Plugin.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A49186331641DDB800A39286;
+			remoteInfo = micorazon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C510259C22B8281A005D0079 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C521D18922D08FB100996781 /* CoronaCards.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C24B5CE61C57EF9500A8E813 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "../../apple/NSString+Extensions.h"; sourceTree = "<group>"; };
+		C24B5CE71C57EF9500A8E813 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extensions.m"; path = "../../apple/NSString+Extensions.m"; sourceTree = "<group>"; };
+		C2A3776C1B33C69F00BB5B88 /* Icon-osx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Icon-osx.icns"; sourceTree = "<group>"; };
+		C2D927261ACA098800B7F9AC /* CoronaShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F1CDA71B4F675D0006DC94 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C521D17222D008EE00996781 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		C521D17322D008EE00996781 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		C521D17522D0094300996781 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		C521D17722D0098400996781 /* CoronaShell.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CoronaShell.icns; sourceTree = SOURCE_ROOT; };
+		C521D17A22D009B400996781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		C521D17C22D009F000996781 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		C521D17E22D00A1000996781 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		C521D18722D08FB100996781 /* CoronaCards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaCards.framework; path = ../../../corona/platform/mac/build/Release/CoronaCards.framework; sourceTree = "<group>"; };
+		C521D18A22D0963B00996781 /* Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Plugin.xcodeproj; sourceTree = "<group>"; };
+		C54769AD22BAD79500D72883 /* CoronaCards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaCards.framework; path = ../../../../corona/platform/mac/build/Release/CoronaCards.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D927231ACA098800B7F9AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C521D18822D08FB100996781 /* CoronaCards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D9271D1ACA098800B7F9AC = {
+			isa = PBXGroup;
+			children = (
+				C521D18A22D0963B00996781 /* Plugin.xcodeproj */,
+				C54769AD22BAD79500D72883 /* CoronaCards.framework */,
+				C521D18722D08FB100996781 /* CoronaCards.framework */,
+				C2F1CDA71B4F675D0006DC94 /* CoreLocation.framework */,
+				C2A3776C1B33C69F00BB5B88 /* Icon-osx.icns */,
+				C2D927281ACA098800B7F9AC /* CoronaShell */,
+				C2D927271ACA098800B7F9AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D927271ACA098800B7F9AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D927261ACA098800B7F9AC /* CoronaShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D927281ACA098800B7F9AC /* CoronaShell */ = {
+			isa = PBXGroup;
+			children = (
+				C521D17E22D00A1000996781 /* Images.xcassets */,
+				C521D17C22D009F000996781 /* Info.plist */,
+				C521D17922D009B400996781 /* MainMenu.xib */,
+				C521D17722D0098400996781 /* CoronaShell.icns */,
+				C521D17522D0094300996781 /* main.m */,
+				C521D17222D008EE00996781 /* AppDelegate.h */,
+				C521D17322D008EE00996781 /* AppDelegate.m */,
+				C24B5CE61C57EF9500A8E813 /* NSString+Extensions.h */,
+				C24B5CE71C57EF9500A8E813 /* NSString+Extensions.m */,
+				C2D927291ACA098800B7F9AC /* Supporting Files */,
+			);
+			path = CoronaShell;
+			sourceTree = "<group>";
+		};
+		C2D927291ACA098800B7F9AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C521D18B22D0963B00996781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C521D18F22D0963B00996781 /* micorazon.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D927251ACA098800B7F9AC /* CoronaShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D927431ACA098800B7F9AC /* Build configuration list for PBXNativeTarget "CoronaShell" */;
+			buildPhases = (
+				C2D927221ACA098800B7F9AC /* Sources */,
+				C2D927231ACA098800B7F9AC /* Frameworks */,
+				C2D927241ACA098800B7F9AC /* Resources */,
+				C510259C22B8281A005D0079 /* Embed Frameworks */,
+				C521D18622D08B3A00996781 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C521D19122D0973B00996781 /* PBXTargetDependency */,
+			);
+			name = CoronaShell;
+			productName = CoronaShell;
+			productReference = C2D927261ACA098800B7F9AC /* CoronaShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D9271E1ACA098800B7F9AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Corona Labs Inc";
+				TargetAttributes = {
+					C2D927251ACA098800B7F9AC = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 5YY4QLF92X;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C2D927211ACA098800B7F9AC /* Build configuration list for PBXProject "CoronaShell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C2D9271D1ACA098800B7F9AC;
+			productRefGroup = C2D927271ACA098800B7F9AC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C521D18B22D0963B00996781 /* Products */;
+					ProjectRef = C521D18A22D0963B00996781 /* Plugin.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C2D927251ACA098800B7F9AC /* CoronaShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C521D18F22D0963B00996781 /* micorazon.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = micorazon.dylib;
+			remoteRef = C521D18E22D0963B00996781 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D927241ACA098800B7F9AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3776D1B33C69F00BB5B88 /* Icon-osx.icns in Resources */,
+				C521D17F22D00A1000996781 /* Images.xcassets in Resources */,
+				C521D17822D0098400996781 /* CoronaShell.icns in Resources */,
+				C521D17D22D009F000996781 /* Info.plist in Resources */,
+				C521D17B22D009B400996781 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C521D18622D08B3A00996781 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp  -a \"$PROJECT_DIR/../Corona\"    \"$BUILT_PRODUCTS_DIR/$TARGET_NAME.app/Contents/Resources/\"\nmkdir -p \"$BUILT_PRODUCTS_DIR/$TARGET_NAME.app/Contents/Resources/Corona/xyz/canardoux\"\ncp  -a \"$BUILT_PRODUCTS_DIR/micorazon.dylib\"     \"$BUILT_PRODUCTS_DIR/$TARGET_NAME.app/Contents/Resources/Corona/xyz/canardoux\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D927221ACA098800B7F9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24B5CE81C57EF9500A8E813 /* NSString+Extensions.m in Sources */,
+				C521D17622D0094300996781 /* main.m in Sources */,
+				C521D17422D008EE00996781 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C521D19122D0973B00996781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = micorazon;
+			targetProxy = C521D19022D0973B00996781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C521D17922D009B400996781 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C521D17A22D009B400996781 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D927411ACA098800B7F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2D927421ACA098800B7F9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2D927441ACA098800B7F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CORONA = "$(PROJECT_DIR)/../../../corona";
+				DEVELOPMENT_TEAM = 5YY4QLF92X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(CORONA)/platform/mac/build/Release",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coronalabs.osx.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = ../;
+			};
+			name = Debug;
+		};
+		C2D927451ACA098800B7F9AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CORONA = "$(PROJECT_DIR)/../../../corona";
+				DEVELOPMENT_TEAM = 5YY4QLF92X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(CORONA)/platform/mac/build/Release",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coronalabs.osx.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = ../;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D927211ACA098800B7F9AC /* Build configuration list for PBXProject "CoronaShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D927411ACA098800B7F9AC /* Debug */,
+				C2D927421ACA098800B7F9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D927431ACA098800B7F9AC /* Build configuration list for PBXNativeTarget "CoronaShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D927441ACA098800B7F9AC /* Debug */,
+				C2D927451ACA098800B7F9AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D9271E1ACA098800B7F9AC /* Project object */;
+}

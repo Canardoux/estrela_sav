@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>640F0F45-6741-4C5C-8689-E1461AC215B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>640F0F45-6741-4C5C-8689-E1461AC215B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Plugin project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>micorazon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build micorazon</string>
+			<key>timeStartedRecording</key>
+			<real>616264492.27933502</real>
+			<key>timeStoppedRecording</key>
+			<real>616264492.33646202</real>
+			<key>title</key>
+			<string>Build micorazon</string>
+			<key>uniqueIdentifier</key>
+			<string>640F0F45-6741-4C5C-8689-E1461AC215B3</string>
+		</dict>
+		<key>9CC90496-C6A3-4669-8561-914E77EE7D81</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9CC90496-C6A3-4669-8561-914E77EE7D81.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Plugin project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>micorazon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build micorazon</string>
+			<key>timeStartedRecording</key>
+			<real>616264471.11872995</real>
+			<key>timeStoppedRecording</key>
+			<real>616264472.50915802</real>
+			<key>title</key>
+			<string>Build micorazon</string>
+			<key>uniqueIdentifier</key>
+			<string>9CC90496-C6A3-4669-8561-914E77EE7D81</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
