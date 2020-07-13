@@ -118,9 +118,9 @@ function scene:create( event )
         local subBtn = widget.newButton( parambtn )
         SecondButtonRow:insert(subBtn)
 
-        parambtn.label = ''
+        parambtn.label = 'Run3'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW) + totalWidth/NB_BUTTON_PER_ROW
-        parambtn.onPress=nullFn
+        parambtn.onPress=function() library.run3( ); end
         local gotoLeft2Btn = widget.newButton( parambtn )
         SecondButtonRow:insert(gotoLeft2Btn)
 

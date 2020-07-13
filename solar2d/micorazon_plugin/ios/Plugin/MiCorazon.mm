@@ -52,6 +52,7 @@ class MiCorazon
 		static int show( lua_State *L );
                 static int run( lua_State *L );
                 static int run2( lua_State *L );
+                static int run3( lua_State *L );
 
 	private:
 		CoronaLuaRef fListener;
@@ -105,6 +106,7 @@ MiCorazon::Open( lua_State *L )
 		{ "show", show },
                 { "run", run },
                 { "run2", run2 },
+                { "run3", run3 },
 
 		{ NULL, NULL }
 	};
@@ -232,9 +234,9 @@ MiCorazon::run (lua_State* L)
         {
                 flutterEngine = [[FlutterEngine alloc] initWithName:@"io.flutter" project:nil];
                 [flutterEngine runWithEntrypoint:nil];
-                [GeneratedPluginRegistrant registerWithRegistry: flutterEngine];// [ TODO !!!!!!!!!!!]
+                [GeneratedPluginRegistrant registerWithRegistry: flutterEngine];
         }
-        FlutterViewController* flutterViewController =[[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+        FlutterViewController* flutterViewController = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
         UIViewController* top = topViewController();
         [top presentViewController:flutterViewController animated:YES completion:nil];
         return 0;
@@ -248,11 +250,29 @@ MiCorazon::run2 (lua_State* L)
         {
                 flutterEngine = [[FlutterEngine alloc] initWithName:@"io.flutter" project:nil];
                 [flutterEngine runWithEntrypoint:nil];
-                //[GeneratedPluginRegistrant registerWithRegistry:self.flutterEngine]; //[ TODO !!!!!!!!!!!]
+                [GeneratedPluginRegistrant registerWithRegistry: flutterEngine];
         }
-        FlutterViewController* flutterViewController =[[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+        FlutterViewController* flutterViewController = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
         UIViewController* bottom = bottomViewController();
         [bottom presentViewController:flutterViewController animated:YES completion:nil];
+        return 0;
+}
+
+
+int
+MiCorazon::run3 (lua_State* L)
+{
+        if (flutterEngine == nil)
+        {
+                flutterEngine = [[FlutterEngine alloc] initWithName:@"io.flutter" project:nil];
+                [flutterEngine runWithEntrypoint:nil];
+                [GeneratedPluginRegistrant registerWithRegistry: flutterEngine];
+        }
+        id<CoronaRuntime> runtime = (id<CoronaRuntime>)CoronaLuaGetContext( L );
+        FlutterViewController* flutterViewController = [[FlutterViewController alloc] initWithEngine:flutterEngine nibName:nil bundle:nil];
+        UINavigationController* nav = runtime.appViewController.navigationController;
+        [nav pushViewController: flutterViewController animated:YES];
+        [runtime.appViewController presentViewController:flutterViewController animated:YES completion:nil];
         return 0;
 }
 

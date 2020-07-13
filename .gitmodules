@@ -1,0 +1,3 @@
+[submodule "solar2d/corona"]
+	path = solar2d/corona
+	url = https://github.com/Canardoux/corona
