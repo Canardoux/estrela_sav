@@ -15,6 +15,23 @@ local dyglot = require 'DgltCards-view'
 -- -----------------------------------------------------------------------------------
 -- Scene event functions
 -- -----------------------------------------------------------------------------------
+-- show()
+function scene:show( event )
+    print('SHOW')
+end
+
+-- hide()
+function scene:hide( event )
+        print('HIDE')
+
+end
+
+-- show()
+function scene:destroy( event )
+        print('DESTROY')
+
+end
+
 
 -- create()
 function scene:create( event )
@@ -34,7 +51,6 @@ function scene:create( event )
         emboss = true,
         labelColor = { default={ 0, 0.2, 0.1 }, over={ 0, 0, 0, 0.5 } },
         textOnly = false,
-        width = display.contentWidth/2 - NB_BUTTON_PER_ROW*MARGIN,
         height = FOOTER_HEIGHT - 4* MARGIN ,
         fillColor = { default={0.7, 0.8, 0.6  }, over={ 1, 0.2, 0.5, 1 } },
         shape = 'roundedRect',
@@ -64,7 +80,7 @@ function scene:create( event )
         --local Hello = display.newRect( backgroundGrp, display.contentCenterX ,     display.contentCenterY ,     200, 100)
         --backgroundGrp:insert(Hello)
         local t1 = display.newText(   {parent = backgroundGrp, x = display.contentCenterX , y = display.contentCenterY - 10 , text = 'Form composed with Solar2d' } )
-       local  t1 = display.newText(   {parent = backgroundGrp, x = display.contentCenterX , y = display.contentCenterY + 10 , text = 'and rendered by Solar2d' } )
+        local t1 = display.newText(   {parent = backgroundGrp, x = display.contentCenterX , y = display.contentCenterY + 10 , text = 'and rendered by Solar2d' } )
 
 
         ButtonBar = display.newGroup()
@@ -86,47 +102,50 @@ function scene:create( event )
         SecondButtonRow.y =    (FOOTER_HEIGHT /2 - MARGIN - MARGIN/2)
         ButtonBar:insert(SecondButtonRow)
 
-        parambtn.label = 'Micorazon'
+        parambtn.label = 'Show'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW)
         parambtn.onPress=function() library.show( 'Zozo' ); end
         local firstBtn = widget.newButton( parambtn )
         FirstButtonRow:insert(firstBtn)
 
-        parambtn.label = 'Flutter'
+        parambtn.label = 'Modal'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW)+ totalWidth/NB_BUTTON_PER_ROW
-        parambtn.onPress=function() library.run( ); end
+        parambtn.onPress=function() library.modal( ); end
         local firstBtn = widget.newButton( parambtn )
         FirstButtonRow:insert(firstBtn)
 
-        parambtn.label = 'Dyna'
+        parambtn.label = 'Push'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW) + 2*totalWidth/NB_BUTTON_PER_ROW
-        parambtn.onPress=nullFn
+        parambtn.onPress=function() composer.removeScene('menuscreen');
+                                        composer.gotoScene('menuscreen'  );
+                                    library.push()
+        end
         local thirdBtn = widget.newButton( parambtn )
         FirstButtonRow:insert(thirdBtn)
 
-        parambtn.label = 'Dyglot'
+        parambtn.label = 'Swap'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW) + 3*totalWidth/NB_BUTTON_PER_ROW
-        parambtn.onPress=function() composer.gotoScene( "DgltCards-view" ); end
+        parambtn.onPress = function() library.swap( ); end
         local fourthBtn = widget.newButton( parambtn )
         FirstButtonRow:insert(fourthBtn)
 
         --
 
-        parambtn.label = 'Run2'
+        parambtn.label = 'Pop'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW)
-        parambtn.onPress=function() library.run2( ); end
+        parambtn.onPress=function() library.pop( ); end
         local subBtn = widget.newButton( parambtn )
         SecondButtonRow:insert(subBtn)
 
-        parambtn.label = 'Run3'
+        parambtn.label = 'Test'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW) + totalWidth/NB_BUTTON_PER_ROW
-        parambtn.onPress=function() library.run3( ); end
+        parambtn.onPress=function() composer.gotoScene( 'test' ); end
         local gotoLeft2Btn = widget.newButton( parambtn )
         SecondButtonRow:insert(gotoLeft2Btn)
 
-        parambtn.label = ''
+        parambtn.label = 'Dyglot'
         parambtn.x =  totalWidth/(2*NB_BUTTON_PER_ROW) + 2*totalWidth/NB_BUTTON_PER_ROW
-        parambtn.onPress=nullFn
+        parambtn.onPress=function() composer.gotoScene( "DgltCards-view" ); end
         local lookupBtn = widget.newButton( parambtn )
         SecondButtonRow:insert(lookupBtn)
 
@@ -146,6 +165,9 @@ function scene:create( event )
 -- Scene event function listeners
 -- -----------------------------------------------------------------------------------
 scene:addEventListener( "create", scene )
+scene:addEventListener( "show", scene )
+scene:addEventListener( "hide", scene )
+scene:addEventListener( "destroy", scene )
 -- -----------------------------------------------------------------------------------
 
 return scene

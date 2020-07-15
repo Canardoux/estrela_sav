@@ -1,10 +1,10 @@
 // This file contains basic setup for Corona Native apps and plugins
 
-CORONA_ROOT=$HOME/Library/Application Support/Corona/Native
+CORONA_ROOT=$(PROJECT_DIR)/../../lib
 
 HEADER_SEARCH_PATHS = $(inherited) "$(CORONA_ROOT)/Corona/shared/include/Corona" "$(CORONA_ROOT)/Corona/shared/include/lua" "$(CORONA_ROOT)/Corona/ios/include/Corona" "$(PODS_ROOT)"
 
-LIBRARY_SEARCH_PATHS = $(inherited) "$(CORONA_ROOT)/Corona/ios/lib"
+LIBRARY_SEARCH_PATHS = $(inherited)  "$(CORONA_ROOT)/Corona/ios/lib" "${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant"
 
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PROJECT_DIR)/EmbeddedFrameworks"
 
@@ -24,7 +24,7 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../../flutter_module/.ios
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant"
+//LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant"
 //OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -iframework "${PODS_ROOT}/../../../flutter_module/.ios/Flutter/engine" -iframework "${PODS_ROOT}/../../../flutter_module/.ios/Flutter"
 //"${PODS_ROOT}/../../../flutter_module/.ios/Flutter"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"FlutterPluginRegistrant" -framework "App" -framework "Flutter"

@@ -61,6 +61,11 @@
 		C22C1E4B1E981D9000D74196 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */; };
 		C59674EE24BB7529001622E5 /* libMiCorazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59674E824BB74B9001622E5 /* libMiCorazon.a */; };
 		C59674F924BB7FD4001622E5 /* libFlutterPluginRegistrant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C59674AD24BA02EA001622E5 /* libFlutterPluginRegistrant.a */; };
+		C5C6D66424BEFBB1008DB71A /* DgltCards.lua in Resources */ = {isa = PBXBuildFile; fileRef = C5C6D65F24BEFBB1008DB71A /* DgltCards.lua */; };
+		C5C6D66524BEFBB1008DB71A /* menuscreen.lua in Resources */ = {isa = PBXBuildFile; fileRef = C5C6D66024BEFBB1008DB71A /* menuscreen.lua */; };
+		C5C6D66624BEFBB1008DB71A /* test.lua in Resources */ = {isa = PBXBuildFile; fileRef = C5C6D66124BEFBB1008DB71A /* test.lua */; };
+		C5C6D66724BEFBB1008DB71A /* DgltCards-view.lua in Resources */ = {isa = PBXBuildFile; fileRef = C5C6D66224BEFBB1008DB71A /* DgltCards-view.lua */; };
+		C5C6D66824BEFBB1008DB71A /* DgltGlobals.lua in Resources */ = {isa = PBXBuildFile; fileRef = C5C6D66324BEFBB1008DB71A /* DgltGlobals.lua */; };
 		E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F31BFC00BA0031FAE9 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F56457D91FA108F500EC8C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56712391F73451B006B502D /* Images.xcassets */; };
@@ -143,6 +148,11 @@
 		C277D3B51EBB9F8E00966BA1 /* _CoronaSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _CoronaSplashScreen.png; sourceTree = "<group>"; };
 		C59674A524BA02E9001622E5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		C59674E324BB74B9001622E5 /* MiCorazon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MiCorazon.xcodeproj; path = ../../micorazon_plugin/ios/MiCorazon.xcodeproj; sourceTree = "<group>"; };
+		C5C6D65F24BEFBB1008DB71A /* DgltCards.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DgltCards.lua; path = ../Corona/DgltCards.lua; sourceTree = "<group>"; };
+		C5C6D66024BEFBB1008DB71A /* menuscreen.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = menuscreen.lua; path = ../Corona/menuscreen.lua; sourceTree = "<group>"; };
+		C5C6D66124BEFBB1008DB71A /* test.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.lua; path = ../Corona/test.lua; sourceTree = "<group>"; };
+		C5C6D66224BEFBB1008DB71A /* DgltCards-view.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DgltCards-view.lua"; path = "../Corona/DgltCards-view.lua"; sourceTree = "<group>"; };
+		C5C6D66324BEFBB1008DB71A /* DgltGlobals.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DgltGlobals.lua; path = ../Corona/DgltGlobals.lua; sourceTree = "<group>"; };
 		E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		E640B2F31BFC00BA0031FAE9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		F54A40BD1EE07F9100AF417D /* build.settings */ = {isa = PBXFileReference; lastKnownFileType = text; name = build.settings; path = ../Corona/build.settings; sourceTree = "<group>"; };
@@ -224,6 +234,11 @@
 			isa = PBXGroup;
 			children = (
 				A447B824166856F3009EA762 /* main.lua */,
+				C5C6D66224BEFBB1008DB71A /* DgltCards-view.lua */,
+				C5C6D65F24BEFBB1008DB71A /* DgltCards.lua */,
+				C5C6D66324BEFBB1008DB71A /* DgltGlobals.lua */,
+				C5C6D66024BEFBB1008DB71A /* menuscreen.lua */,
+				C5C6D66124BEFBB1008DB71A /* test.lua */,
 				F54A40BD1EE07F9100AF417D /* build.settings */,
 				F54A40BE1EE07F9100AF417D /* config.lua */,
 			);
@@ -444,10 +459,15 @@
 			files = (
 				A484112C15114F700074BD57 /* InfoPlist.strings in Resources */,
 				F56457D91FA108F500EC8C29 /* Images.xcassets in Resources */,
+				C5C6D66724BEFBB1008DB71A /* DgltCards-view.lua in Resources */,
 				A447B6671666FD02009EA762 /* MainWindow-iPad.xib in Resources */,
+				C5C6D66524BEFBB1008DB71A /* menuscreen.lua in Resources */,
 				A447B6681666FD02009EA762 /* MainWindow.xib in Resources */,
 				F5C9F4811ED39AD100D34A2D /* _CoronaSplashScreen.png in Resources */,
+				C5C6D66424BEFBB1008DB71A /* DgltCards.lua in Resources */,
+				C5C6D66624BEFBB1008DB71A /* test.lua in Resources */,
 				A447B66A1666FD43009EA762 /* Corona3rdPartyLicenses.txt in Resources */,
+				C5C6D66824BEFBB1008DB71A /* DgltGlobals.lua in Resources */,
 				A498B81A16D70EFC0091A148 /* CoronaResources.bundle in Resources */,
 				C22C1E4B1E981D9000D74196 /* LaunchScreen.storyboardc in Resources */,
 			);
@@ -540,7 +560,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# echo \"CORONA_ROOT: ${CORONA_ROOT}\"\nif [ ! -d \"${CORONA_ROOT}\" ]\nthen\necho \"error: Corona Native has not been setup.  Run 'Native/SetupCoronaNative.app' in your Corona install to set it up\" >&2\n\nexit 1\nelse\necho \"Building with Corona Native from $(readlink \"${CORONA_ROOT}\")\"\nfi\n\n# Check for difficult to debug error involving an item in the Corona\n# project directory having the same name as a file in the app bundle\nif [ -d \"${PROJECT_DIR}/../Corona/${EXECUTABLE_NAME}\" ]\nthen\necho \"ERROR: cannot have a directory called '$(ls \"${PROJECT_DIR}/../Corona\" | grep -iw ${EXECUTABLE_NAME})' in the Corona project directory because it has the same name as the app\"\nexit 1\nfi\n";
+			shellScript = "echo \"CORONA_ROOT: ${CORONA_ROOT}\"\nif [ ! -d \"${CORONA_ROOT}\" ]\nthen\necho \"error: Corona Native has not been setup.  Run 'Native/SetupCoronaNative.app' in your Corona install to set it up\" >&2\nexit 1\nelse\necho \"Building with Corona Native from $(readlink \"${CORONA_ROOT}\")\"\nfi\n\n# Check for difficult to debug error involving an item in the Corona\n# project directory having the same name as a file in the app bundle\nif [ -d \"${PROJECT_DIR}/../Corona/${EXECUTABLE_NAME}\" ]\nthen\necho \"ERROR: cannot have a directory called '$(ls \"${PROJECT_DIR}/../Corona\" | grep -iw ${EXECUTABLE_NAME})' in the Corona project directory because it has the same name as the app\"\nexit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C596751024BC440D001622E5 /* Flutter Script */ = {
@@ -723,7 +743,14 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant\"",
-					"\"${PODS_PODFILE_DIR_PATH}/Pods/Target Support Files/FlutterPluginRegistrant",
+					"\"${PODS_PODFILE_DIR_PATH}/Pods/Target Support Files/FlutterPluginRegistrant\"",
+					"\"${CORONA_LIB}\"",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant\"",
+					"\"${PODS_PODFILE_DIR_PATH}/Pods/Target Support Files/FlutterPluginRegistrant\"",
+					"\"${CORONA_LIB}\"",
 				);
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.canardoux.estrela;
@@ -758,7 +785,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant\"",
-					"\"${PODS_PODFILE_DIR_PATH}",
+					"\"${PODS_PODFILE_DIR_PATH}\"",
 				);
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.canardoux.estrela;
